@@ -15,7 +15,7 @@ Features
 3) Session Management:
   Persistent user sessions to enhance security and usability.
 
-4)Error Handling:
+4) Error Handling:
   Proper error messages for invalid actions or database issues.
 
 5) Database Integration:
