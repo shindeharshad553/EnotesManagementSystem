@@ -28,8 +28,6 @@ public class UserDAO {
 //	login user 
 	public UserDetails login(UserDetails newuser) throws Exception {
 		PreparedStatement ps = c.prepareStatement("select * from user where email=? and password=?");
-		System.out.println(newuser.getEmail());
-		System.out.println(newuser.getPassword());
 		ps.setString(1, newuser.getEmail());
 		ps.setString(2, newuser.getPassword());
 		ResultSet rs = ps.executeQuery();
